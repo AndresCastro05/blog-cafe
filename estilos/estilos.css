@@ -29,8 +29,8 @@ body {
 
 /* globales */
 .contenedor {
-    
-    width:min(90%,120rem);
+
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 
@@ -97,7 +97,8 @@ img {
     color: var(--blanco);
     margin-top: 5rem;
 }
-.barra{
+
+.barra {
     padding-top: 4rem;
 }
 
@@ -220,8 +221,18 @@ img {
     font-size: 2rem;
 }
 
-.footer{
+.footer {
     background-color: var(--negro);
-    padding-bottom: 3rem ;
+    padding-bottom: 3rem;
     margin-top: 4rem;
+}
+
+/* sobre nosotros  */
+@media(min-width:768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+
+    }
 }
