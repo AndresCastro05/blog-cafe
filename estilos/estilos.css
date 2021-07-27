@@ -236,3 +236,49 @@ img {
 
     }
 }
+
+/* cursos  */
+.cursos{
+    padding: 3rem 0;
+    border-bottom: 1px solid  var(--gris);
+}
+
+@media(min-width:768px){
+    .cursos{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+}
+
+.cursos:last-of-type{
+    padding: none;
+}
+
+.cursos {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+
+}
+
+.cursos:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.cursos__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+
+}
+
+.cursos__info {
+    font-weight: normal;
+
+}
+
+.cursos__label,
+.cursos__info {
+    font-size: 2
+}
